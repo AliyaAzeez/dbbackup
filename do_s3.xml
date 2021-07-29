@@ -1,0 +1,10 @@
+<LifecycleConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
+    <Rule>
+        <ID>Expire 1</ID>
+        <Prefix></Prefix>
+        <Status>Enabled</Status>
+        <Expiration>
+            <Days>1</Days>
+        </Expiration>
+    </Rule>
+</LifecycleConfiguration>
